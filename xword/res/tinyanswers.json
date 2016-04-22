@@ -1,0 +1,138 @@
+﻿{
+    "across": [
+        {
+            "num": 1,
+            "answer": "BLEED"
+        },
+        {
+            "num": 5,
+            "answer": "ABOVE"
+        },
+        {
+            "num": 9,
+            "answer": "NEARER"
+        },
+        {
+            "num": 10,
+            "answer": "ABODE"
+        },
+        {
+            "num": 12,
+            "answer": "RAG"
+        },
+        {
+            "num": 13,
+            "answer": "LEVER"
+        },
+        {
+            "num": 14,
+            "answer": "EMAIL"
+        },
+        {
+            "num": 15,
+            "answer": "SLED"
+        },
+        {
+            "num": 16,
+            "answer": "TUT"
+        },
+        {
+            "num": 18,
+            "answer": "SOME"
+        },
+        {
+            "num": 20,
+            "answer": "POETS"
+        },
+        {
+            "num": 22,
+            "answer": "AWFUL"
+        },
+        {
+            "num": 23,
+            "answer": "IRK"
+        },
+        {
+            "num": 24,
+            "answer": "PATSY"
+        },
+        {
+            "num": 25,
+            "answer": "GEEZER"
+        },
+        {
+            "num": 26,
+            "answer": "ETHER"
+        },
+        {
+            "num": 27,
+            "answer": "SMACK"
+        }
+    ],
+    "down": [
+        {
+            "num": 2,
+            "answer": "LABEL"
+        },
+        {
+            "num": 3,
+            "answer": "ENDED"
+        },
+        {
+            "num": 4,
+            "answer": "DEER"
+        },
+        {
+            "num": 5,
+            "answer": "ARREST"
+        },
+        {
+            "num": 6,
+            "answer": "BEAM"
+        },
+        {
+            "num": 7,
+            "answer": "ORGANLOFT"
+        },
+        {
+            "num": 8,
+            "answer": "EVIL"
+        },
+        {
+            "num": 10,
+            "answer": "ALSO"
+        },
+        {
+            "num": 11,
+            "answer": "OVERWEIGH"
+        },
+        {
+            "num": 16,
+            "answer": "TUSKER"
+        },
+        {
+            "num": 17,
+            "answer": "RELY"
+        },
+        {
+            "num": 18,
+            "answer": "SWARM"
+        },
+        {
+            "num": 19,
+            "answer": "MUSIC"
+        },
+        {
+            "num": 20,
+            "answer": "POPE"
+        },
+        {
+            "num": 21,
+            "answer": "TREE"
+        },
+        {
+            "num": 22,
+            "answer": "APES"
+        }
+    ]
+}

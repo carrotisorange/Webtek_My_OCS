@@ -1,0 +1,499 @@
+﻿{
+    "description": "So You've Solved a Few...",
+    "rows": 13,
+    "cols": 13,
+    "across": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 4,
+            "clue": "Mr. Griffin"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 6,
+            "len": 4,
+            "clue": "'Slippery' trees"
+        },
+        {
+            "num": 9,
+            "row": 1,
+            "col": 11,
+            "len": 3,
+            "clue": "Gave food"
+        },
+        {
+            "num": 12,
+            "row": 2,
+            "col": 1,
+            "len": 4,
+            "clue": "'Terrible' czar"
+        },
+        {
+            "num": 13,
+            "row": 2,
+            "col": 6,
+            "len": 4,
+            "clue": "Peachy ____"
+        },
+        {
+            "num": 14,
+            "row": 2,
+            "col": 11,
+            "len": 3,
+            "clue": "Metallic earth"
+        },
+        {
+            "num": 15,
+            "row": 3,
+            "col": 1,
+            "len": 4,
+            "clue": "Mention"
+        },
+        {
+            "num": 16,
+            "row": 3,
+            "col": 6,
+            "len": 4,
+            "clue": "Bible twin"
+        },
+        {
+            "num": 17,
+            "row": 3,
+            "col": 11,
+            "len": 3,
+            "clue": "Tonic's frequent partner"
+        },
+        {
+            "num": 18,
+            "row": 4,
+            "col": 4,
+            "len": 3,
+            "clue": "'60 Minutes' network"
+        },
+        {
+            "num": 20,
+            "row": 4,
+            "col": 9,
+            "len": 5,
+            "clue": "Military compounds"
+        },
+        {
+            "num": 22,
+            "row": 5,
+            "col": 1,
+            "len": 5,
+            "clue": "Chip"
+        },
+        {
+            "num": 25,
+            "row": 5,
+            "col": 7,
+            "len": 4,
+            "clue": "Sealed with a ____"
+        },
+        {
+            "num": 27,
+            "row": 6,
+            "col": 1,
+            "len": 3,
+            "clue": "Purpose"
+        },
+        {
+            "num": 28,
+            "row": 6,
+            "col": 5,
+            "len": 4,
+            "clue": "Still snoozing"
+        },
+        {
+            "num": 30,
+            "row": 6,
+            "col": 10,
+            "len": 4,
+            "clue": "Remote"
+        },
+        {
+            "num": 34,
+            "row": 7,
+            "col": 1,
+            "len": 4,
+            "clue": "Preserve"
+        },
+        {
+            "num": 36,
+            "row": 7,
+            "col": 6,
+            "len": 3,
+            "clue": "Building wing"
+        },
+        {
+            "num": 37,
+            "row": 7,
+            "col": 10,
+            "len": 4,
+            "clue": "Renowned explorer Marco"
+        },
+        {
+            "num": 38,
+            "row": 8,
+            "col": 1,
+            "len": 4,
+            "clue": "Novelist Ferber"
+        },
+        {
+            "num": 39,
+            "row": 8,
+            "col": 6,
+            "len": 4,
+            "clue": "Yukon 'cab'"
+        },
+        {
+            "num": 41,
+            "row": 8,
+            "col": 11,
+            "len": 3,
+            "clue": "Needing a doctor"
+        },
+        {
+            "num": 42,
+            "row": 9,
+            "col": 4,
+            "len": 4,
+            "clue": "Responsibility"
+        },
+        {
+            "num": 44,
+            "row": 9,
+            "col": 9,
+            "len": 5,
+            "clue": "New Haven student"
+        },
+        {
+            "num": 46,
+            "row": 10,
+            "col": 1,
+            "len": 5,
+            "clue": "Ecstasy"
+        },
+        {
+            "num": 49,
+            "row": 10,
+            "col": 8,
+            "len": 3,
+            "clue": "Society girl"
+        },
+        {
+            "num": 50,
+            "row": 11,
+            "col": 1,
+            "len": 3,
+            "clue": "John, in Aberdeen"
+        },
+        {
+            "num": 51,
+            "row": 11,
+            "col": 5,
+            "len": 4,
+            "clue": "'____ excited!' (2 words)"
+        },
+        {
+            "num": 54,
+            "row": 11,
+            "col": 10,
+            "len": 4,
+            "clue": "Fail to include"
+        },
+        {
+            "num": 58,
+            "row": 12,
+            "col": 1,
+            "len": 3,
+            "clue": "Capp and Pacino"
+        },
+        {
+            "num": 59,
+            "row": 12,
+            "col": 5,
+            "len": 4,
+            "clue": "'Bewitched' twitcher"
+        },
+        {
+            "num": 60,
+            "row": 12,
+            "col": 10,
+            "len": 4,
+            "clue": "John Wayne's nickname"
+        },
+        {
+            "num": 61,
+            "row": 13,
+            "col": 1,
+            "len": 3,
+            "clue": "Drain energy"
+        },
+        {
+            "num": 62,
+            "row": 13,
+            "col": 5,
+            "len": 4,
+            "clue": "Departs"
+        },
+        {
+            "num": 63,
+            "row": 13,
+            "col": 10,
+            "len": 4,
+            "clue": "Adam's home"
+        }
+    ],
+    "down": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 3,
+            "clue": "Opposite of max."
+        },
+        {
+            "num": 2,
+            "row": 1,
+            "col": 2,
+            "len": 3,
+            "clue": "____ Marie Saint"
+        },
+        {
+            "num": 3,
+            "row": 1,
+            "col": 3,
+            "len": 3,
+            "clue": "Lamb's father"
+        },
+        {
+            "num": 4,
+            "row": 1,
+            "col": 4,
+            "len": 5,
+            "clue": "Sweater feature (2 words)"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 6,
+            "len": 4,
+            "clue": "____ out (supplements)"
+        },
+        {
+            "num": 6,
+            "row": 1,
+            "col": 7,
+            "len": 3,
+            "clue": "Bandleader Brown"
+        },
+        {
+            "num": 7,
+            "row": 1,
+            "col": 8,
+            "len": 3,
+            "clue": "____ culpa"
+        },
+        {
+            "num": 8,
+            "row": 1,
+            "col": 9,
+            "len": 5,
+            "clue": "Gives the cold shoulder"
+        },
+        {
+            "num": 9,
+            "row": 1,
+            "col": 11,
+            "len": 4,
+            "clue": "Heavy mists"
+        },
+        {
+            "num": 10,
+            "row": 1,
+            "col": 12,
+            "len": 4,
+            "clue": "____ Canal"
+        },
+        {
+            "num": 11,
+            "row": 1,
+            "col": 13,
+            "len": 4,
+            "clue": "Bears' lairs"
+        },
+        {
+            "num": 19,
+            "row": 4,
+            "col": 5,
+            "len": 3,
+            "clue": "'____ good sport!' (2 words)"
+        },
+        {
+            "num": 21,
+            "row": 4,
+            "col": 10,
+            "len": 4,
+            "clue": "PDQ's kin"
+        },
+        {
+            "num": 22,
+            "row": 5,
+            "col": 1,
+            "len": 4,
+            "clue": "Counterfeit"
+        },
+        {
+            "num": 23,
+            "row": 5,
+            "col": 2,
+            "len": 4,
+            "clue": "Told a tall tale"
+        },
+        {
+            "num": 24,
+            "row": 5,
+            "col": 3,
+            "len": 4,
+            "clue": "Hymn's end"
+        },
+        {
+            "num": 25,
+            "row": 5,
+            "col": 7,
+            "len": 5,
+            "clue": "Gene or Grace"
+        },
+        {
+            "num": 26,
+            "row": 5,
+            "col": 8,
+            "len": 4,
+            "clue": "Unoccupied"
+        },
+        {
+            "num": 29,
+            "row": 6,
+            "col": 6,
+            "len": 4,
+            "clue": "Number one"
+        },
+        {
+            "num": 31,
+            "row": 6,
+            "col": 11,
+            "len": 4,
+            "clue": "Outwit"
+        },
+        {
+            "num": 32,
+            "row": 6,
+            "col": 12,
+            "len": 4,
+            "clue": "'____ Know' (2 words)"
+        },
+        {
+            "num": 33,
+            "row": 6,
+            "col": 13,
+            "len": 4,
+            "clue": "Acting part"
+        },
+        {
+            "num": 35,
+            "row": 7,
+            "col": 4,
+            "len": 4,
+            "clue": "Hockey player's protection"
+        },
+        {
+            "num": 40,
+            "row": 8,
+            "col": 9,
+            "len": 3,
+            "clue": "Apply henna"
+        },
+        {
+            "num": 43,
+            "row": 9,
+            "col": 5,
+            "len": 5,
+            "clue": "Employing"
+        },
+        {
+            "num": 45,
+            "row": 9,
+            "col": 10,
+            "len": 5,
+            "clue": "Habitation"
+        },
+        {
+            "num": 46,
+            "row": 10,
+            "col": 1,
+            "len": 4,
+            "clue": "Slant"
+        },
+        {
+            "num": 47,
+            "row": 10,
+            "col": 2,
+            "len": 4,
+            "clue": "Tra-____ (hyph.)"
+        },
+        {
+            "num": 48,
+            "row": 10,
+            "col": 3,
+            "len": 4,
+            "clue": "Clouseau's rank (abbr.)"
+        },
+        {
+            "num": 49,
+            "row": 10,
+            "col": 8,
+            "len": 4,
+            "clue": "Mates for bucks"
+        },
+        {
+            "num": 52,
+            "row": 11,
+            "col": 6,
+            "len": 3,
+            "clue": "Cow sound"
+        },
+        {
+            "num": 53,
+            "row": 11,
+            "col": 7,
+            "len": 3,
+            "clue": "Mariner's dir."
+        },
+        {
+            "num": 55,
+            "row": 11,
+            "col": 11,
+            "len": 3,
+            "clue": "____ wrestling"
+        },
+        {
+            "num": 56,
+            "row": 11,
+            "col": 12,
+            "len": 3,
+            "clue": "Mamie's hubby"
+        },
+        {
+            "num": 57,
+            "row": 11,
+            "col": 13,
+            "len": 3,
+            "clue": "Countdown starter"
+        }
+    ]
+}

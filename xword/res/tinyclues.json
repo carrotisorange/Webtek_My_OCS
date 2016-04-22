@@ -1,0 +1,240 @@
+﻿{
+    "description": "New To Crosswords, Huh?",
+    "rows": 11,
+    "cols": 11,
+    "across": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 5,
+            "clue": "Drain off a fluid"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 7,
+            "len": 5,
+            "clue": "In a higher place"
+        },
+        {
+            "num": 9,
+            "row": 2,
+            "col": 4,
+            "len": 6,
+            "clue": "Less distant"
+        },
+        {
+            "num": 10,
+            "row": 3,
+            "col": 1,
+            "len": 5,
+            "clue": "Dwelling"
+        },
+        {
+            "num": 12,
+            "row": 3,
+            "col": 7,
+            "len": 3,
+            "clue": "Worthless piece of cloth"
+        },
+        {
+            "num": 13,
+            "row": 4,
+            "col": 1,
+            "len": 5,
+            "clue": "Pry"
+        },
+        {
+            "num": 14,
+            "row": 4,
+            "col": 7,
+            "len": 5,
+            "clue": "Electronic letter"
+        },
+        {
+            "num": 15,
+            "row": 5,
+            "col": 1,
+            "len": 4,
+            "clue": "Sliding vehicle"
+        },
+        {
+            "num": 16,
+            "row": 6,
+            "col": 5,
+            "len": 3,
+            "clue": "Exclamation of contempt"
+        },
+        {
+            "num": 18,
+            "row": 7,
+            "col": 8,
+            "len": 4,
+            "clue": "Roughly"
+        },
+        {
+            "num": 20,
+            "row": 8,
+            "col": 1,
+            "len": 5,
+            "clue": "Lyrical wordsmiths"
+        },
+        {
+            "num": 22,
+            "row": 8,
+            "col": 7,
+            "len": 5,
+            "clue": "Terrible"
+        },
+        {
+            "num": 23,
+            "row": 9,
+            "col": 3,
+            "len": 3,
+            "clue": "Irritate"
+        },
+        {
+            "num": 24,
+            "row": 9,
+            "col": 7,
+            "len": 5,
+            "clue": "Fall guy"
+        },
+        {
+            "num": 25,
+            "row": 10,
+            "col": 3,
+            "len": 6,
+            "clue": "Eccentric man"
+        },
+        {
+            "num": 26,
+            "row": 11,
+            "col": 1,
+            "len": 5,
+            "clue": "The heavens"
+        },
+        {
+            "num": 27,
+            "row": 11,
+            "col": 7,
+            "len": 5,
+            "clue": "Enthusiastic kiss"
+        }
+    ],
+    "down": [
+        {
+            "num": 2,
+            "row": 1,
+            "col": 2,
+            "len": 5,
+            "clue": "Tag"
+        },
+        {
+            "num": 3,
+            "row": 1,
+            "col": 4,
+            "len": 5,
+            "clue": "Terminated"
+        },
+        {
+            "num": 4,
+            "row": 1,
+            "col": 5,
+            "len": 4,
+            "clue": "Source of venison"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 7,
+            "len": 6,
+            "clue": "Take into custody"
+        },
+        {
+            "num": 6,
+            "row": 1,
+            "col": 8,
+            "len": 4,
+            "clue": "Horizontal structural component"
+        },
+        {
+            "num": 7,
+            "row": 1,
+            "col": 9,
+            "len": 9,
+            "clue": "Gallery occupied by a church organ (2 words)"
+        },
+        {
+            "num": 8,
+            "row": 1,
+            "col": 11,
+            "len": 4,
+            "clue": "Wicked"
+        },
+        {
+            "num": 10,
+            "row": 3,
+            "col": 1,
+            "len": 4,
+            "clue": "Too"
+        },
+        {
+            "num": 11,
+            "row": 3,
+            "col": 3,
+            "len": 9,
+            "clue": "Exceed in weight"
+        },
+        {
+            "num": 16,
+            "row": 6,
+            "col": 5,
+            "len": 6,
+            "clue": "Animal with tusks"
+        },
+        {
+            "num": 17,
+            "row": 6,
+            "col": 11,
+            "len": 4,
+            "clue": "Have confidence in"
+        },
+        {
+            "num": 18,
+            "row": 7,
+            "col": 8,
+            "len": 5,
+            "clue": "Body of bees"
+        },
+        {
+            "num": 19,
+            "row": 7,
+            "col": 10,
+            "len": 5,
+            "clue": "Melody"
+        },
+        {
+            "num": 20,
+            "row": 8,
+            "col": 1,
+            "len": 4,
+            "clue": "Head of the Roman Catholic Church"
+        },
+        {
+            "num": 21,
+            "row": 8,
+            "col": 4,
+            "len": 4,
+            "clue": "Tall plant"
+        },
+        {
+            "num": 22,
+            "row": 8,
+            "col": 7,
+            "len": 4,
+            "clue": "Copies"
+        }
+    ]
+}

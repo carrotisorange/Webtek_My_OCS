@@ -1,0 +1,390 @@
+﻿{
+    "across": [
+        {
+            "num": 1,
+            "answer": "BASS"
+        },
+        {
+            "num": 5,
+            "answer": "BRAGG"
+        },
+        {
+            "num": 10,
+            "answer": "GETOFF"
+        },
+        {
+            "num": 16,
+            "answer": "ELAL"
+        },
+        {
+            "num": 17,
+            "answer": "LAKER"
+        },
+        {
+            "num": 18,
+            "answer": "REEKER"
+        },
+        {
+            "num": 19,
+            "answer": "NOLO"
+        },
+        {
+            "num": 20,
+            "answer": "UTILE"
+        },
+        {
+            "num": 21,
+            "answer": "OCTAVE"
+        },
+        {
+            "num": 22,
+            "answer": "JUSTMEANDYEW"
+        },
+        {
+            "num": 25,
+            "answer": "EPEE"
+        },
+        {
+            "num": 26,
+            "answer": "IDAHO"
+        },
+        {
+            "num": 27,
+            "answer": "SET"
+        },
+        {
+            "num": 28,
+            "answer": "LAIRD"
+        },
+        {
+            "num": 29,
+            "answer": "SORER"
+        },
+        {
+            "num": 33,
+            "answer": "SCOOT"
+        },
+        {
+            "num": 35,
+            "answer": "ANS"
+        },
+        {
+            "num": 38,
+            "answer": "DAYATTHEBEECH"
+        },
+        {
+            "num": 43,
+            "answer": "LENI"
+        },
+        {
+            "num": 45,
+            "answer": "PERU"
+        },
+        {
+            "num": 46,
+            "answer": "ROTARY"
+        },
+        {
+            "num": 47,
+            "answer": "AMENS"
+        },
+        {
+            "num": 49,
+            "answer": "DETER"
+        },
+        {
+            "num": 52,
+            "answer": "SETON"
+        },
+        {
+            "num": 53,
+            "answer": "READUP"
+        },
+        {
+            "num": 55,
+            "answer": "TRIP"
+        },
+        {
+            "num": 57,
+            "answer": "SEND"
+        },
+        {
+            "num": 58,
+            "answer": "MAKETHEFIRFLY"
+        },
+        {
+            "num": 62,
+            "answer": "NYE"
+        },
+        {
+            "num": 63,
+            "answer": "FRILL"
+        },
+        {
+            "num": 64,
+            "answer": "STOAS"
+        },
+        {
+            "num": 66,
+            "answer": "PODIA"
+        },
+        {
+            "num": 69,
+            "answer": "SEA"
+        },
+        {
+            "num": 71,
+            "answer": "LEDGE"
+        },
+        {
+            "num": 75,
+            "answer": "SPUN"
+        },
+        {
+            "num": 76,
+            "answer": "PEAROFQUEENS"
+        },
+        {
+            "num": 80,
+            "answer": "ATTICA"
+        },
+        {
+            "num": 82,
+            "answer": "BUILT"
+        },
+        {
+            "num": 83,
+            "answer": "SLAT"
+        },
+        {
+            "num": 84,
+            "answer": "TICTAC"
+        },
+        {
+            "num": 85,
+            "answer": "ABLER"
+        },
+        {
+            "num": 86,
+            "answer": "ALTO"
+        },
+        {
+            "num": 87,
+            "answer": "SCHEME"
+        },
+        {
+            "num": 88,
+            "answer": "GASES"
+        },
+        {
+            "num": 89,
+            "answer": "WASP"
+        }
+    ],
+    "down": [
+        {
+            "num": 1,
+            "answer": "BENJI"
+        },
+        {
+            "num": 2,
+            "answer": "ALOUD"
+        },
+        {
+            "num": 3,
+            "answer": "SALSA"
+        },
+        {
+            "num": 4,
+            "answer": "SLOTHS"
+        },
+        {
+            "num": 5,
+            "answer": "BLUE"
+        },
+        {
+            "num": 6,
+            "answer": "RATA"
+        },
+        {
+            "num": 7,
+            "answer": "AKIN"
+        },
+        {
+            "num": 8,
+            "answer": "GELDS"
+        },
+        {
+            "num": 9,
+            "answer": "GREYEST"
+        },
+        {
+            "num": 10,
+            "answer": "GROW"
+        },
+        {
+            "num": 11,
+            "answer": "EEC"
+        },
+        {
+            "num": 12,
+            "answer": "TETEATETES"
+        },
+        {
+            "num": 13,
+            "answer": "OKAPI"
+        },
+        {
+            "num": 14,
+            "answer": "FEVER"
+        },
+        {
+            "num": 15,
+            "answer": "FREED"
+        },
+        {
+            "num": 23,
+            "answer": "MOOD"
+        },
+        {
+            "num": 24,
+            "answer": "ETCH"
+        },
+        {
+            "num": 28,
+            "answer": "LOBOS"
+        },
+        {
+            "num": 30,
+            "answer": "RAP"
+        },
+        {
+            "num": 31,
+            "answer": "EYED"
+        },
+        {
+            "num": 32,
+            "answer": "RARE"
+        },
+        {
+            "num": 34,
+            "answer": "OER"
+        },
+        {
+            "num": 35,
+            "answer": "ALARM"
+        },
+        {
+            "num": 36,
+            "answer": "NEMEA"
+        },
+        {
+            "num": 37,
+            "answer": "SNEAK"
+        },
+        {
+            "num": 39,
+            "answer": "TUTTI"
+        },
+        {
+            "num": 40,
+            "answer": "EATEN"
+        },
+        {
+            "num": 41,
+            "answer": "CRONY"
+        },
+        {
+            "num": 42,
+            "answer": "HYNDE"
+        },
+        {
+            "num": 44,
+            "answer": "INDEFINITE"
+        },
+        {
+            "num": 48,
+            "answer": "SUTRA"
+        },
+        {
+            "num": 50,
+            "answer": "ERRS"
+        },
+        {
+            "num": 51,
+            "answer": "RIFT"
+        },
+        {
+            "num": 54,
+            "answer": "PHI"
+        },
+        {
+            "num": 56,
+            "answer": "PLO"
+        },
+        {
+            "num": 59,
+            "answer": "ELSE"
+        },
+        {
+            "num": 60,
+            "answer": "FLEABAG"
+        },
+        {
+            "num": 61,
+            "answer": "YALU"
+        },
+        {
+            "num": 65,
+            "answer": "SEESAW"
+        },
+        {
+            "num": 66,
+            "answer": "PSATS"
+        },
+        {
+            "num": 67,
+            "answer": "OPTIC"
+        },
+        {
+            "num": 68,
+            "answer": "DUTCH"
+        },
+        {
+            "num": 70,
+            "answer": "ARUBA"
+        },
+        {
+            "num": 72,
+            "answer": "DELLA"
+        },
+        {
+            "num": 73,
+            "answer": "GNATS"
+        },
+        {
+            "num": 74,
+            "answer": "ESTOP"
+        },
+        {
+            "num": 76,
+            "answer": "PACE"
+        },
+        {
+            "num": 77,
+            "answer": "OILS"
+        },
+        {
+            "num": 78,
+            "answer": "FLEE"
+        },
+        {
+            "num": 79,
+            "answer": "QTRS"
+        },
+        {
+            "num": 81,
+            "answer": "CAM"
+        }
+    ]
+}

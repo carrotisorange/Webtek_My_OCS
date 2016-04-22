@@ -1,0 +1,527 @@
+﻿{
+    "description": "This Is More Like It!",
+    "rows": 15,
+    "cols": 15,
+    "across": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 5,
+            "clue": "Yarns"
+        },
+        {
+            "num": 6,
+            "row": 1,
+            "col": 7,
+            "len": 3,
+            "clue": "Cribbage marker"
+        },
+        {
+            "num": 9,
+            "row": 1,
+            "col": 12,
+            "len": 4,
+            "clue": "Vaulted alcove"
+        },
+        {
+            "num": 13,
+            "row": 2,
+            "col": 1,
+            "len": 5,
+            "clue": "Unaccompanied"
+        },
+        {
+            "num": 14,
+            "row": 2,
+            "col": 7,
+            "len": 4,
+            "clue": "Part of Q.E.D."
+        },
+        {
+            "num": 16,
+            "row": 2,
+            "col": 12,
+            "len": 4,
+            "clue": "Belgian songwriter Jacques"
+        },
+        {
+            "num": 17,
+            "row": 3,
+            "col": 1,
+            "len": 10,
+            "clue": "Venetian boat song"
+        },
+        {
+            "num": 19,
+            "row": 3,
+            "col": 12,
+            "len": 4,
+            "clue": "Folk singer Mitchell"
+        },
+        {
+            "num": 20,
+            "row": 4,
+            "col": 1,
+            "len": 10,
+            "clue": "Anxiety or discomfort"
+        },
+        {
+            "num": 21,
+            "row": 4,
+            "col": 12,
+            "len": 4,
+            "clue": "Doing (2 words)"
+        },
+        {
+            "num": 22,
+            "row": 5,
+            "col": 4,
+            "len": 4,
+            "clue": "Deities"
+        },
+        {
+            "num": 23,
+            "row": 5,
+            "col": 10,
+            "len": 6,
+            "clue": "Lasso"
+        },
+        {
+            "num": 25,
+            "row": 6,
+            "col": 1,
+            "len": 6,
+            "clue": "Calculator figure"
+        },
+        {
+            "num": 28,
+            "row": 6,
+            "col": 8,
+            "len": 6,
+            "clue": "Home for Heidi"
+        },
+        {
+            "num": 30,
+            "row": 7,
+            "col": 1,
+            "len": 4,
+            "clue": "Prompted"
+        },
+        {
+            "num": 31,
+            "row": 7,
+            "col": 6,
+            "len": 4,
+            "clue": "Golfer Sandy"
+        },
+        {
+            "num": 33,
+            "row": 7,
+            "col": 11,
+            "len": 5,
+            "clue": "Loathing"
+        },
+        {
+            "num": 36,
+            "row": 8,
+            "col": 1,
+            "len": 3,
+            "clue": "____ Aviv"
+        },
+        {
+            "num": 37,
+            "row": 8,
+            "col": 5,
+            "len": 7,
+            "clue": "In view"
+        },
+        {
+            "num": 39,
+            "row": 8,
+            "col": 13,
+            "len": 3,
+            "clue": "Spanish gold"
+        },
+        {
+            "num": 40,
+            "row": 9,
+            "col": 1,
+            "len": 5,
+            "clue": "Deceptively plausible"
+        },
+        {
+            "num": 42,
+            "row": 9,
+            "col": 7,
+            "len": 4,
+            "clue": "Western writer Zane"
+        },
+        {
+            "num": 43,
+            "row": 9,
+            "col": 12,
+            "len": 4,
+            "clue": "Foam"
+        },
+        {
+            "num": 44,
+            "row": 10,
+            "col": 3,
+            "len": 6,
+            "clue": "Cower"
+        },
+        {
+            "num": 46,
+            "row": 10,
+            "col": 10,
+            "len": 6,
+            "clue": "Kind of monkey"
+        },
+        {
+            "num": 48,
+            "row": 11,
+            "col": 1,
+            "len": 6,
+            "clue": "French film director Chabrol"
+        },
+        {
+            "num": 50,
+            "row": 11,
+            "col": 9,
+            "len": 4,
+            "clue": "New Look designer"
+        },
+        {
+            "num": 51,
+            "row": 12,
+            "col": 1,
+            "len": 4,
+            "clue": "Shoestring"
+        },
+        {
+            "num": 52,
+            "row": 12,
+            "col": 6,
+            "len": 10,
+            "clue": "East African capital (2 words)"
+        },
+        {
+            "num": 58,
+            "row": 13,
+            "col": 1,
+            "len": 4,
+            "clue": "Seed covering"
+        },
+        {
+            "num": 59,
+            "row": 13,
+            "col": 6,
+            "len": 10,
+            "clue": "Histrionic"
+        },
+        {
+            "num": 60,
+            "row": 14,
+            "col": 1,
+            "len": 4,
+            "clue": "'____ the picture!' (2 words)"
+        },
+        {
+            "num": 61,
+            "row": 14,
+            "col": 6,
+            "len": 4,
+            "clue": "Frost"
+        },
+        {
+            "num": 62,
+            "row": 14,
+            "col": 11,
+            "len": 5,
+            "clue": "Region south of the Sahara"
+        },
+        {
+            "num": 63,
+            "row": 15,
+            "col": 1,
+            "len": 4,
+            "clue": "Pink"
+        },
+        {
+            "num": 64,
+            "row": 15,
+            "col": 7,
+            "len": 3,
+            "clue": "Sardonic"
+        },
+        {
+            "num": 65,
+            "row": 15,
+            "col": 11,
+            "len": 5,
+            "clue": "Doorway"
+        }
+    ],
+    "down": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 4,
+            "clue": "Forbidden"
+        },
+        {
+            "num": 2,
+            "row": 1,
+            "col": 2,
+            "len": 4,
+            "clue": "Actor Alda"
+        },
+        {
+            "num": 3,
+            "row": 1,
+            "col": 3,
+            "len": 4,
+            "clue": "Traditional knowledge"
+        },
+        {
+            "num": 4,
+            "row": 1,
+            "col": 4,
+            "len": 7,
+            "clue": "Confined"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 5,
+            "len": 6,
+            "clue": "Fall, e.g."
+        },
+        {
+            "num": 6,
+            "row": 1,
+            "col": 7,
+            "len": 5,
+            "clue": "Lowly workers"
+        },
+        {
+            "num": 7,
+            "row": 1,
+            "col": 8,
+            "len": 4,
+            "clue": "Perry's creator"
+        },
+        {
+            "num": 8,
+            "row": 1,
+            "col": 9,
+            "len": 4,
+            "clue": "Guys' partners"
+        },
+        {
+            "num": 9,
+            "row": 1,
+            "col": 12,
+            "len": 7,
+            "clue": "Given up"
+        },
+        {
+            "num": 10,
+            "row": 1,
+            "col": 13,
+            "len": 10,
+            "clue": "Favorable"
+        },
+        {
+            "num": 11,
+            "row": 1,
+            "col": 14,
+            "len": 5,
+            "clue": "Actress Berger"
+        },
+        {
+            "num": 12,
+            "row": 1,
+            "col": 15,
+            "len": 5,
+            "clue": "'Adam Bede' author"
+        },
+        {
+            "num": 15,
+            "row": 2,
+            "col": 10,
+            "len": 5,
+            "clue": "Magnetic induction unit"
+        },
+        {
+            "num": 18,
+            "row": 3,
+            "col": 6,
+            "len": 6,
+            "clue": "Conundrum"
+        },
+        {
+            "num": 24,
+            "row": 5,
+            "col": 11,
+            "len": 4,
+            "clue": "Succulent plant"
+        },
+        {
+            "num": 25,
+            "row": 6,
+            "col": 1,
+            "len": 4,
+            "clue": "Serves"
+        },
+        {
+            "num": 26,
+            "row": 6,
+            "col": 2,
+            "len": 4,
+            "clue": "Affaire d'honneur"
+        },
+        {
+            "num": 27,
+            "row": 6,
+            "col": 3,
+            "len": 10,
+            "clue": "Choice foods"
+        },
+        {
+            "num": 28,
+            "row": 6,
+            "col": 8,
+            "len": 5,
+            "clue": "Irish county"
+        },
+        {
+            "num": 29,
+            "row": 6,
+            "col": 9,
+            "len": 4,
+            "clue": "Greek goddess of youth"
+        },
+        {
+            "num": 32,
+            "row": 7,
+            "col": 7,
+            "len": 4,
+            "clue": "Burglar"
+        },
+        {
+            "num": 34,
+            "row": 7,
+            "col": 14,
+            "len": 4,
+            "clue": "Language of Pakistan"
+        },
+        {
+            "num": 35,
+            "row": 7,
+            "col": 15,
+            "len": 4,
+            "clue": "Bryologist's interest"
+        },
+        {
+            "num": 37,
+            "row": 8,
+            "col": 5,
+            "len": 4,
+            "clue": "Veer out of control"
+        },
+        {
+            "num": 38,
+            "row": 8,
+            "col": 10,
+            "len": 6,
+            "clue": "Player of an old instrument"
+        },
+        {
+            "num": 41,
+            "row": 9,
+            "col": 4,
+            "len": 7,
+            "clue": "Inhumanity"
+        },
+        {
+            "num": 43,
+            "row": 9,
+            "col": 12,
+            "len": 7,
+            "clue": "Belgrade inhabitant"
+        },
+        {
+            "num": 45,
+            "row": 10,
+            "col": 6,
+            "len": 5,
+            "clue": "Below, for Byron"
+        },
+        {
+            "num": 47,
+            "row": 10,
+            "col": 11,
+            "len": 6,
+            "clue": "Rough and husky"
+        },
+        {
+            "num": 48,
+            "row": 11,
+            "col": 1,
+            "len": 5,
+            "clue": "'____ de Lune'"
+        },
+        {
+            "num": 49,
+            "row": 11,
+            "col": 2,
+            "len": 5,
+            "clue": "Slow movement"
+        },
+        {
+            "num": 50,
+            "row": 11,
+            "col": 9,
+            "len": 5,
+            "clue": "Journal"
+        },
+        {
+            "num": 53,
+            "row": 12,
+            "col": 7,
+            "len": 4,
+            "clue": "Arab boat"
+        },
+        {
+            "num": 54,
+            "row": 12,
+            "col": 8,
+            "len": 4,
+            "clue": "Letter opener"
+        },
+        {
+            "num": 55,
+            "row": 12,
+            "col": 13,
+            "len": 4,
+            "clue": "Eight in Essen"
+        },
+        {
+            "num": 56,
+            "row": 12,
+            "col": 14,
+            "len": 4,
+            "clue": "Boxer Max"
+        },
+        {
+            "num": 57,
+            "row": 12,
+            "col": 15,
+            "len": 4,
+            "clue": "Join forces"
+        }
+    ]
+}

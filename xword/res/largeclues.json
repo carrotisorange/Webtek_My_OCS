@@ -1,0 +1,681 @@
+﻿{
+    "description": "Are You Sure About This?!?",
+    "rows": 17,
+    "cols": 17,
+    "across": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 4,
+            "clue": "Four-string guitar"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 6,
+            "len": 5,
+            "clue": "Fort ____ (North Carolina base)"
+        },
+        {
+            "num": 10,
+            "row": 1,
+            "col": 12,
+            "len": 6,
+            "clue": "Dismount (2 words)"
+        },
+        {
+            "num": 16,
+            "row": 2,
+            "col": 1,
+            "len": 4,
+            "clue": "Israel's flagship carrier (2 words)"
+        },
+        {
+            "num": 17,
+            "row": 2,
+            "col": 6,
+            "len": 5,
+            "clue": "Sir Freddie of aviation fame"
+        },
+        {
+            "num": 18,
+            "row": 2,
+            "col": 12,
+            "len": 6,
+            "clue": "It stinks"
+        },
+        {
+            "num": 19,
+            "row": 3,
+            "col": 1,
+            "len": 4,
+            "clue": "____ contendere"
+        },
+        {
+            "num": 20,
+            "row": 3,
+            "col": 6,
+            "len": 5,
+            "clue": "Handy"
+        },
+        {
+            "num": 21,
+            "row": 3,
+            "col": 12,
+            "len": 6,
+            "clue": "One of several on an 88-key piano"
+        },
+        {
+            "num": 22,
+            "row": 4,
+            "col": 1,
+            "len": 12,
+            "clue": "Lonely whittler's lament? (4 words)"
+        },
+        {
+            "num": 25,
+            "row": 4,
+            "col": 14,
+            "len": 4,
+            "clue": "Fencing piece"
+        },
+        {
+            "num": 26,
+            "row": 5,
+            "col": 1,
+            "len": 5,
+            "clue": "Caribou National Forest state"
+        },
+        {
+            "num": 27,
+            "row": 5,
+            "col": 9,
+            "len": 3,
+            "clue": "Firmed up"
+        },
+        {
+            "num": 28,
+            "row": 5,
+            "col": 13,
+            "len": 5,
+            "clue": "Landed Scot"
+        },
+        {
+            "num": 29,
+            "row": 6,
+            "col": 4,
+            "len": 5,
+            "clue": "More tender"
+        },
+        {
+            "num": 33,
+            "row": 6,
+            "col": 10,
+            "len": 5,
+            "clue": "Skedaddle"
+        },
+        {
+            "num": 35,
+            "row": 7,
+            "col": 1,
+            "len": 3,
+            "clue": "Solution (abbr.)"
+        },
+        {
+            "num": 38,
+            "row": 7,
+            "col": 5,
+            "len": 13,
+            "clue": "Summer outing with a bunch of nuts? (4 words)"
+        },
+        {
+            "num": 43,
+            "row": 8,
+            "col": 1,
+            "len": 4,
+            "clue": "Propagandist Riefenstahl"
+        },
+        {
+            "num": 45,
+            "row": 8,
+            "col": 6,
+            "len": 4,
+            "clue": "Where Inca Kola is sold"
+        },
+        {
+            "num": 46,
+            "row": 8,
+            "col": 12,
+            "len": 6,
+            "clue": "Kiwanis-type club"
+        },
+        {
+            "num": 47,
+            "row": 9,
+            "col": 1,
+            "len": 5,
+            "clue": "Prayer closers"
+        },
+        {
+            "num": 49,
+            "row": 9,
+            "col": 7,
+            "len": 5,
+            "clue": "Scare off"
+        },
+        {
+            "num": 52,
+            "row": 9,
+            "col": 13,
+            "len": 5,
+            "clue": "'Foxfire' author Anya"
+        },
+        {
+            "num": 53,
+            "row": 10,
+            "col": 1,
+            "len": 6,
+            "clue": "Study a bit (2 words)"
+        },
+        {
+            "num": 55,
+            "row": 10,
+            "col": 9,
+            "len": 4,
+            "clue": "Take a tumble"
+        },
+        {
+            "num": 57,
+            "row": 10,
+            "col": 14,
+            "len": 4,
+            "clue": "Dispatch"
+        },
+        {
+            "num": 58,
+            "row": 11,
+            "col": 1,
+            "len": 13,
+            "clue": "Be an overzealous feller? (4 words)"
+        },
+        {
+            "num": 62,
+            "row": 11,
+            "col": 15,
+            "len": 3,
+            "clue": "Carrie of 'Creepshow'"
+        },
+        {
+            "num": 63,
+            "row": 12,
+            "col": 4,
+            "len": 5,
+            "clue": "Bell or whistle, maybe"
+        },
+        {
+            "num": 64,
+            "row": 12,
+            "col": 10,
+            "len": 5,
+            "clue": "Greek colonnades"
+        },
+        {
+            "num": 66,
+            "row": 13,
+            "col": 1,
+            "len": 5,
+            "clue": "Pols' platforms"
+        },
+        {
+            "num": 69,
+            "row": 13,
+            "col": 7,
+            "len": 3,
+            "clue": "Most of the globe"
+        },
+        {
+            "num": 71,
+            "row": 13,
+            "col": 13,
+            "len": 5,
+            "clue": "Mantel, e.g."
+        },
+        {
+            "num": 75,
+            "row": 14,
+            "col": 1,
+            "len": 4,
+            "clue": "Like cocoons and spider webs"
+        },
+        {
+            "num": 76,
+            "row": 14,
+            "col": 6,
+            "len": 12,
+            "clue": "Fine lumber from NYC? (3 words)"
+        },
+        {
+            "num": 80,
+            "row": 15,
+            "col": 1,
+            "len": 6,
+            "clue": "'71 jail riot venue"
+        },
+        {
+            "num": 82,
+            "row": 15,
+            "col": 8,
+            "len": 5,
+            "clue": "Hard-bodied"
+        },
+        {
+            "num": 83,
+            "row": 15,
+            "col": 14,
+            "len": 4,
+            "clue": "Blind part"
+        },
+        {
+            "num": 84,
+            "row": 16,
+            "col": 1,
+            "len": 6,
+            "clue": "Pill-like mint (2 words)"
+        },
+        {
+            "num": 85,
+            "row": 16,
+            "col": 8,
+            "len": 5,
+            "clue": "Not as inept"
+        },
+        {
+            "num": 86,
+            "row": 16,
+            "col": 14,
+            "len": 4,
+            "clue": "Choir voice"
+        },
+        {
+            "num": 87,
+            "row": 17,
+            "col": 1,
+            "len": 6,
+            "clue": "Conspiracy"
+        },
+        {
+            "num": 88,
+            "row": 17,
+            "col": 8,
+            "len": 5,
+            "clue": "Exhausted escapees?"
+        },
+        {
+            "num": 89,
+            "row": 17,
+            "col": 14,
+            "len": 4,
+            "clue": "Summer buzzer"
+        }
+    ],
+    "down": [
+        {
+            "num": 1,
+            "row": 1,
+            "col": 1,
+            "len": 5,
+            "clue": "Shaggy cinema dog"
+        },
+        {
+            "num": 2,
+            "row": 1,
+            "col": 2,
+            "len": 5,
+            "clue": "Not sotto voce"
+        },
+        {
+            "num": 3,
+            "row": 1,
+            "col": 3,
+            "len": 5,
+            "clue": "Willie Colon's music"
+        },
+        {
+            "num": 4,
+            "row": 1,
+            "col": 4,
+            "len": 6,
+            "clue": "Three-toed tree hangers"
+        },
+        {
+            "num": 5,
+            "row": 1,
+            "col": 6,
+            "len": 4,
+            "clue": "Despondent"
+        },
+        {
+            "num": 6,
+            "row": 1,
+            "col": 7,
+            "len": 4,
+            "clue": "Laboratorio critter"
+        },
+        {
+            "num": 7,
+            "row": 1,
+            "col": 8,
+            "len": 4,
+            "clue": "Related (to)"
+        },
+        {
+            "num": 8,
+            "row": 1,
+            "col": 9,
+            "len": 5,
+            "clue": "Neuters (a horse)"
+        },
+        {
+            "num": 9,
+            "row": 1,
+            "col": 10,
+            "len": 7,
+            "clue": "Most hoary, in Derby"
+        },
+        {
+            "num": 10,
+            "row": 1,
+            "col": 12,
+            "len": 4,
+            "clue": "Expand"
+        },
+        {
+            "num": 11,
+            "row": 1,
+            "col": 13,
+            "len": 3,
+            "clue": "Old acronym for a continental alliance"
+        },
+        {
+            "num": 12,
+            "row": 1,
+            "col": 14,
+            "len": 10,
+            "clue": "Private chats (hyph.)"
+        },
+        {
+            "num": 13,
+            "row": 1,
+            "col": 15,
+            "len": 5,
+            "clue": "Giraffe relative"
+        },
+        {
+            "num": 14,
+            "row": 1,
+            "col": 16,
+            "len": 5,
+            "clue": "Flu symptom"
+        },
+        {
+            "num": 15,
+            "row": 1,
+            "col": 17,
+            "len": 5,
+            "clue": "Alan who allegedly coined the phrase 'rock and roll'"
+        },
+        {
+            "num": 23,
+            "row": 4,
+            "col": 5,
+            "len": 4,
+            "clue": "Ambiance"
+        },
+        {
+            "num": 24,
+            "row": 4,
+            "col": 11,
+            "len": 4,
+            "clue": "Print indelibly"
+        },
+        {
+            "num": 28,
+            "row": 5,
+            "col": 13,
+            "len": 5,
+            "clue": "Wolves"
+        },
+        {
+            "num": 30,
+            "row": 6,
+            "col": 6,
+            "len": 3,
+            "clue": "Criticize"
+        },
+        {
+            "num": 31,
+            "row": 6,
+            "col": 7,
+            "len": 4,
+            "clue": "Appraised visually"
+        },
+        {
+            "num": 32,
+            "row": 6,
+            "col": 8,
+            "len": 4,
+            "clue": "Hard to locate"
+        },
+        {
+            "num": 34,
+            "row": 6,
+            "col": 12,
+            "len": 3,
+            "clue": "Not 'neath"
+        },
+        {
+            "num": 35,
+            "row": 7,
+            "col": 1,
+            "len": 5,
+            "clue": "Bedside buzzer"
+        },
+        {
+            "num": 36,
+            "row": 7,
+            "col": 2,
+            "len": 5,
+            "clue": "Ancient Greek Games locale"
+        },
+        {
+            "num": 37,
+            "row": 7,
+            "col": 3,
+            "len": 5,
+            "clue": "Pussyfoot"
+        },
+        {
+            "num": 39,
+            "row": 7,
+            "col": 9,
+            "len": 5,
+            "clue": "Everybody, in Italy"
+        },
+        {
+            "num": 40,
+            "row": 7,
+            "col": 15,
+            "len": 5,
+            "clue": "Eroded"
+        },
+        {
+            "num": 41,
+            "row": 7,
+            "col": 16,
+            "len": 5,
+            "clue": "Henchman"
+        },
+        {
+            "num": 42,
+            "row": 7,
+            "col": 17,
+            "len": 5,
+            "clue": "Chrissie of the Pretenders"
+        },
+        {
+            "num": 44,
+            "row": 8,
+            "col": 4,
+            "len": 10,
+            "clue": "Fuzzy"
+        },
+        {
+            "num": 48,
+            "row": 9,
+            "col": 5,
+            "len": 5,
+            "clue": "'Kama ____' (Hindu love manual)"
+        },
+        {
+            "num": 50,
+            "row": 9,
+            "col": 10,
+            "len": 4,
+            "clue": "Fouls up"
+        },
+        {
+            "num": 51,
+            "row": 9,
+            "col": 11,
+            "len": 4,
+            "clue": "Huge falling-out"
+        },
+        {
+            "num": 54,
+            "row": 10,
+            "col": 6,
+            "len": 3,
+            "clue": "21st Greek letter"
+        },
+        {
+            "num": 56,
+            "row": 10,
+            "col": 12,
+            "len": 3,
+            "clue": "Arafat's gp."
+        },
+        {
+            "num": 59,
+            "row": 11,
+            "col": 7,
+            "len": 4,
+            "clue": "Otherwise"
+        },
+        {
+            "num": 60,
+            "row": 11,
+            "col": 8,
+            "len": 7,
+            "clue": "Seedy place to stay"
+        },
+        {
+            "num": 61,
+            "row": 11,
+            "col": 13,
+            "len": 4,
+            "clue": "806-km. river to Korea Bay"
+        },
+        {
+            "num": 65,
+            "row": 12,
+            "col": 14,
+            "len": 6,
+            "clue": "Vacillate"
+        },
+        {
+            "num": 66,
+            "row": 13,
+            "col": 1,
+            "len": 5,
+            "clue": "Jrs.' exams"
+        },
+        {
+            "num": 67,
+            "row": 13,
+            "col": 2,
+            "len": 5,
+            "clue": "Eye-related"
+        },
+        {
+            "num": 68,
+            "row": 13,
+            "col": 3,
+            "len": 5,
+            "clue": "Reagan bio by Edmund Morris"
+        },
+        {
+            "num": 70,
+            "row": 13,
+            "col": 9,
+            "len": 5,
+            "clue": "Carribean isle"
+        },
+        {
+            "num": 72,
+            "row": 13,
+            "col": 15,
+            "len": 5,
+            "clue": "Perry's loyal aide"
+        },
+        {
+            "num": 73,
+            "row": 13,
+            "col": 16,
+            "len": 5,
+            "clue": "Itty-bitty pests"
+        },
+        {
+            "num": 74,
+            "row": 13,
+            "col": 17,
+            "len": 5,
+            "clue": "Prevent, in legalese"
+        },
+        {
+            "num": 76,
+            "row": 14,
+            "col": 6,
+            "len": 4,
+            "clue": "Tempo"
+        },
+        {
+            "num": 77,
+            "row": 14,
+            "col": 10,
+            "len": 4,
+            "clue": "Some canvases"
+        },
+        {
+            "num": 78,
+            "row": 14,
+            "col": 11,
+            "len": 4,
+            "clue": "Get outta Dodge"
+        },
+        {
+            "num": 79,
+            "row": 14,
+            "col": 12,
+            "len": 4,
+            "clue": "Game pieces? (abbr.)"
+        },
+        {
+            "num": 81,
+            "row": 15,
+            "col": 5,
+            "len": 3,
+            "clue": "Ouse feeder"
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "across": [
+        {
+            "num": 1,
+            "answer": "MERV"
+        },
+        {
+            "num": 5,
+            "answer": "ELMS"
+        },
+        {
+            "num": 9,
+            "answer": "FED"
+        },
+        {
+            "num": 12,
+            "answer": "IVAN"
+        },
+        {
+            "num": 13,
+            "answer": "KEEN"
+        },
+        {
+            "num": 14,
+            "answer": "ORE"
+        },
+        {
+            "num": 15,
+            "answer": "NAME"
+        },
+        {
+            "num": 16,
+            "answer": "ESAU"
+        },
+        {
+            "num": 17,
+            "answer": "GIN"
+        },
+        {
+            "num": 18,
+            "answer": "CBS"
+        },
+        {
+            "num": 20,
+            "answer": "BASES"
+        },
+        {
+            "num": 22,
+            "answer": "FLAKE"
+        },
+        {
+            "num": 25,
+            "answer": "KISS"
+        },
+        {
+            "num": 27,
+            "answer": "AIM"
+        },
+        {
+            "num": 28,
+            "answer": "ABED"
+        },
+        {
+            "num": 30,
+            "answer": "AFAR"
+        },
+        {
+            "num": 34,
+            "answer": "KEEP"
+        },
+        {
+            "num": 36,
+            "answer": "ELL"
+        },
+        {
+            "num": 37,
+            "answer": "POLO"
+        },
+        {
+            "num": 38,
+            "answer": "EDNA"
+        },
+        {
+            "num": 39,
+            "answer": "SLED"
+        },
+        {
+            "num": 41,
+            "answer": "ILL"
+        },
+        {
+            "num": 42,
+            "answer": "DUTY"
+        },
+        {
+            "num": 44,
+            "answer": "YALIE"
+        },
+        {
+            "num": 46,
+            "answer": "BLISS"
+        },
+        {
+            "num": 49,
+            "answer": "DEB"
+        },
+        {
+            "num": 50,
+            "answer": "IAN"
+        },
+        {
+            "num": 51,
+            "answer": "IMSO"
+        },
+        {
+            "num": 54,
+            "answer": "OMIT"
+        },
+        {
+            "num": 58,
+            "answer": "ALS"
+        },
+        {
+            "num": 59,
+            "answer": "NOSE"
+        },
+        {
+            "num": 60,
+            "answer": "DUKE"
+        },
+        {
+            "num": 61,
+            "answer": "SAP"
+        },
+        {
+            "num": 62,
+            "answer": "GOES"
+        },
+        {
+            "num": 63,
+            "answer": "EDEN"
+        }
+    ],
+    "down": [
+        {
+            "num": 1,
+            "answer": "MIN"
+        },
+        {
+            "num": 2,
+            "answer": "EVA"
+        },
+        {
+            "num": 3,
+            "answer": "RAM"
+        },
+        {
+            "num": 4,
+            "answer": "VNECK"
+        },
+        {
+            "num": 5,
+            "answer": "EKES"
+        },
+        {
+            "num": 6,
+            "answer": "LES"
+        },
+        {
+            "num": 7,
+            "answer": "MEA"
+        },
+        {
+            "num": 8,
+            "answer": "SNUBS"
+        },
+        {
+            "num": 9,
+            "answer": "FOGS"
+        },
+        {
+            "num": 10,
+            "answer": "ERIE"
+        },
+        {
+            "num": 11,
+            "answer": "DENS"
+        },
+        {
+            "num": 19,
+            "answer": "BEA"
+        },
+        {
+            "num": 21,
+            "answer": "ASAP"
+        },
+        {
+            "num": 22,
+            "answer": "FAKE"
+        },
+        {
+            "num": 23,
+            "answer": "LIED"
+        },
+        {
+            "num": 24,
+            "answer": "AMEN"
+        },
+        {
+            "num": 25,
+            "answer": "KELLY"
+        },
+        {
+            "num": 26,
+            "answer": "IDLE"
+        },
+        {
+            "num": 29,
+            "answer": "BEST"
+        },
+        {
+            "num": 31,
+            "answer": "FOIL"
+        },
+        {
+            "num": 32,
+            "answer": "ALLI"
+        },
+        {
+            "num": 33,
+            "answer": "ROLE"
+        },
+        {
+            "num": 35,
+            "answer": "PADS"
+        },
+        {
+            "num": 40,
+            "answer": "DYE"
+        },
+        {
+            "num": 43,
+            "answer": "USING"
+        },
+        {
+            "num": 45,
+            "answer": "ABODE"
+        },
+        {
+            "num": 46,
+            "answer": "BIAS"
+        },
+        {
+            "num": 47,
+            "answer": "LALA"
+        },
+        {
+            "num": 48,
+            "answer": "INSP"
+        },
+        {
+            "num": 49,
+            "answer": "DOES"
+        },
+        {
+            "num": 52,
+            "answer": "MOO"
+        },
+        {
+            "num": 53,
+            "answer": "SSE"
+        },
+        {
+            "num": 55,
+            "answer": "MUD"
+        },
+        {
+            "num": 56,
+            "answer": "IKE"
+        },
+        {
+            "num": 57,
+            "answer": "TEN"
+        }
+    ]
+}

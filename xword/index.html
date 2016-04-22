@@ -1,0 +1,418 @@
+<!--
+    NOTE:  
+    * Edit this file to implement the expected functionality of the indicated application.
+    
+    * All code (i.e., HTML, CSS, JavaScript) must be contained in this file, and must be 
+      the group's ORIGINAL WORK.  PLAGIARIZED work, both the ORIGINAL and the COPY, will
+      get NO CREDIT.
+
+    * Use embedded code comments to label each code section with the name of the member of 
+      the group who is responsible for that code section.  All essential code sections must 
+      be labeled properly.
+
+    * Use appropriate code documentation to provide brief descriptions/explanations of each
+      essential code section.
+
+    * Use only 'vanilla' HTML, CSS, and JavaScript in your code (i.e., 3rd-party libraries
+      or frameworks must not be used).
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crossword Puzzles</title>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+    <script>
+        /* use this function to fetch the specified file (assumed to be a text-format
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             data file located in the 'res' folder) using AJAX, returning the file's
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             contents when successful, or 'undefined' otherwise.. */
+        function getDataFile(filename) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "res/" + filename, false);
+            xhr.send();
+            if (xhr.status == 200) {
+                return xhr.responseText;
+            }
+        }
+
+        /*  Dolipas, Derrick
+			used  to return the size of the puzzle(tiny,small,medium,large) basing on
+        	 the users choice from the radio buttons.
+        	
+        */
+        function getPuzzleSize() {
+            var sizes = document.getElementsByName('choice');
+            for (var x in sizes) {
+                if (sizes[x].checked) {
+                    return sizes[x].value;
+                }
+            }
+        }
+
+        /*
+            Madayag, Nick
+        
+			used to get data from the external json files by calling the getDataFile function	
+        	 and also merging the data from the clues and anwsers files by the use of for loops.
+        	 the function also calls the populateTable function.
+        */
+        function populateData() {
+            resetValues();
+            answers = (JSON.parse(getDataFile(getPuzzleSize() + "answers.json")));
+            clues = (JSON.parse(getDataFile(getPuzzleSize() + "clues.json")));
+            puzzleSize.push(clues.rows);
+            puzzleAcross = clues.across;
+            puzzleDown = clues.down;
+
+            for (var x in puzzleAcross) {
+                puzzleAcross[x].answer = answers.across[x].answer;
+                puzzleAcross[x].location = new Array();
+
+                for (y = 0; y < puzzleAcross[x].len; y++) {
+                    (puzzleAcross[x].location).push("r" + puzzleAcross[x].row + "c" + (puzzleAcross[x].col + y));
+                }
+
+            }
+
+            for (var x in puzzleDown) {
+                puzzleDown[x].answer = answers.down[x].answer;
+                puzzleDown[x].location = new Array();
+
+                for (y = 0; y < puzzleDown[x].len; y++) {
+                    (puzzleDown[x].location).push("r" + (puzzleDown[x].row + y) + "c" + puzzleDown[x].col);
+                }
+
+            }
+
+            populateTable();
+
+        }
+
+        /* Madayag, Nick
+        
+			* used to fill the table with input elements.
+         */
+        function placeInputBox() {
+            for (x = 0; x < puzzleAcross.length; x++) {
+                for (y = 0; y < puzzleAcross[x].location.length; y++) {
+                    document.getElementById("r" + puzzleAcross[x].row + "c" + (puzzleAcross[x].col + y)).innerHTML = "" +
+                        "<input onclick='displayClue(" + "r" + puzzleAcross[x].row + "c" + (puzzleAcross[x].col + y) +
+                        ")' id='" + "sr" + puzzleAcross[x].row + "c" + (puzzleAcross[x].col + y) +
+                        "' Maxlength=1 type='text' value=''/>";
+                    document.getElementById("r" + puzzleAcross[x].row + "c" + (puzzleAcross[x].col + y)).classList.add("a" + puzzleAcross[x].num);
+                }
+            }
+
+            for (x = 0; x < puzzleDown.length; x++) {
+                for (y = 0; y < puzzleDown[x].location.length; y++) {
+                    document.getElementById("r" + (puzzleDown[x].row + y) + "c" + puzzleDown[x].col).innerHTML = "" +
+                        "<input onclick='displayClue(" + "r" + (puzzleDown[x].row + y) + "c" + puzzleDown[x].col +
+                        ")' id='" + "sr" + (puzzleDown[x].row + y) + "c" + puzzleDown[x].col +
+                        "' Maxlength=1 type='text' value=''/>";
+                    document.getElementById("r" + (puzzleDown[x].row + y) + "c" + puzzleDown[x].col).classList.add("d" + puzzleDown[x].num);
+                }
+            }
+
+        }
+
+        /* Bernardo, Landley
+        
+			used to create a table depending on the value of puzzleSize
+        	 also calls  the placeInputBox function
+        */
+        function populateTable() {
+            puzCont = "";
+            for (x = 1; x <= puzzleSize[0]; x++) {
+                puzCont += "<tr>";
+                for (y = 1; y <= puzzleSize[0]; y++) {
+                    puzCont += "<td class ='empty'id= r" + x + "c" + y + "></td>";
+                }
+                puzCont += "</tr>";
+            }
+            document.getElementById('puzzleBody').innerHTML = puzCont;
+
+            placeInputBox();
+        }
+
+        /*
+            Bernardo, Landley
+			used to reset the values of puzzleSize, puzzleAcross,& puzzleDown
+         */
+        function resetValues() {
+            puzzleSize = [];
+            puzzleAcross = [];
+            puzzleDown = [];
+        }
+
+        /* Marquez, Jorge
+        
+			used to display the clues of the clicked input element	
+        	 the clues if available for both across and down are displayed 
+        	 and updates everytime an input element is clicked.
+        */
+        function displayClue(str) {
+            classes = str.classList;
+            clueDet = "";
+
+            document.getElementById('aClue').value = " ";
+            document.getElementById('dClue').value = " ";
+
+            for (var x = 1; x < classes.length; x++) {
+                if (classes[x].charAt(0).localeCompare('a') == 0) {
+                    for (y = 0; y < puzzleAcross.length; y++) {
+                        if (puzzleAcross[y].num == parseInt(classes[x].substring(1))) {
+                            clueDet = puzzleAcross[y].clue;
+                        }
+                    }
+                    document.getElementById('aClue').value = clueDet;
+                } else {
+                    for (y = 0; y < puzzleDown.length; y++) {
+                        if (puzzleDown[y].num == parseInt(classes[x].substring(1))) {
+                            clueDet = puzzleDown[y].clue;
+                        }
+                    }
+                    document.getElementById('dClue').value = clueDet;
+                }
+            }
+
+        }
+
+        /* Marquez, Jorge
+        
+			used to create a sequence of function calls that will occur when the Start/End button is clicked.
+			The sequence depends on the value of the innerHTML of the button with id equal to clickMe.
+         */
+        function startEnd() {
+            if (document.getElementById('clickMe').innerHTML.localeCompare('Start') == 0) {
+                document.getElementById('clickMe').innerHTML = "End";
+                populateData();
+                document.getElementById('clue').style.visibility = "visible";
+                document.getElementById('ins').style.visibility = "visible";
+                document.getElementById('choices').style.visibility = "hidden";
+                document.getElementById('puzzleBody').style.border = "2px solid black";
+            } else {
+                document.getElementById('ins').style.visibility = "hidden";
+                document.getElementById('clickMe').innerHTML = "Start";
+                displayScore();
+                document.getElementById('clue').style.visibility = "hidden";
+                document.getElementById('choices').style.visibility = "visible";
+            }
+        }
+
+        /*
+            Dolipas, Derrick
+            
+			Displays the score the user got
+			this function calls two other functions(computeAcross and ccomputeDown) in order to display the 
+			 score of the user in a alert.
+        */
+
+        function displayScore() {
+            alert("your score:\nAcross: " + computeAcross() + " / " +
+                +puzzleAcross.length + "\nDown: " + computeDown() + " / " + puzzleDown.length);
+
+            computeDown();
+        }
+
+        /*  Madayag, Nick
+            
+        	Returns a number equal to the number of right answers the user have for 
+        	 items that are across.This function compares the concatinated string from the table 
+        	 with the value of the answer attribute of an element of puzzleAcross.
+        */
+
+        function computeAcross() {
+            score = 0;
+            for (x = 0; x < puzzleAcross.length; x++) {
+                answer = " ";
+                for (y = 0; y < puzzleAcross[x].location.length; y++) {
+                    answer += document.getElementById("s" + puzzleAcross[x].location[y]).value
+                }
+                if (answer.toUpperCase().trim().localeCompare(puzzleAcross[x].answer) == 0) {
+                    score++;
+                }
+            }
+            return score;
+        }
+
+        /*  Dolipas, Derrick
+            
+        	Returns a number equal to the number of right answers the user have for 
+        	 items that are down.This function compares the concatinated string from the table 
+        	 with the value of the answer attribute of an element of puzzleDown.
+        */
+        function computeDown() {
+            score = 0;
+            for (x = 0; x < puzzleDown.length; x++) {
+                answer = " ";
+                for (y = 0; y < puzzleDown[x].location.length; y++) {
+                    answer += document.getElementById("s" + puzzleDown[x].location[y]).value
+                }
+                if (answer.toUpperCase().trim().localeCompare(puzzleDown[x].answer) == 0) {
+                    score++;
+                }
+            }
+            return score;
+        }
+
+        var puzzleSize = [];
+        var puzzleAcross = [];
+        var puzzleDown = [];
+    </script>
+
+    <!--Bernardo, Landley-->
+    <style>
+        td>input {
+            text-transform: uppercase;
+            background-color: white;
+            font-family: cursive;
+            font-size: 100%;
+        }
+        
+        td>input:focus {
+            background-color: red;
+        }
+        
+        .empty {
+            background-color: black;
+        }
+        
+        td>input {
+            text-align: center;
+            font-size: 25px;
+            height: 26px;
+            width: 25px;
+            border: 0px;
+        }
+        
+        tr {
+            height: 25px;
+        }
+        
+        td {
+            width: 25px;
+            text-align: center;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        #clue {
+            position: absolute;
+            left: 10%;
+            top: 30%;
+            visibility: "hidden";
+            font-family: cursive;
+            width: 30%;
+            color: red;
+        }
+        
+        #puzzleBody {
+            position: absolute;
+            margin-left: 45%;
+            margin-top: 3%;
+            z-index: 500;
+        }
+        
+        #choices {
+            position: absolute;
+            left: 10%;
+            top: 30%;
+            z-index: 100;
+            font-family: cursive;
+            font-size: 100%;
+        }
+        
+        #ins {
+            position: absolute;
+            left: 10%;
+            top: 30%;
+            visibility: hidden;
+            font-family: cursive;
+            width: 20%;
+        }
+        
+        button#clickMe {
+            position: absolute;
+            left: 10%;
+            top: 25%
+        }
+        
+        div#clue>input {
+            height: 35px;
+            width: 300px;
+            font-size: 20px
+        }
+        
+        header {
+            border: 1px solid;
+            text-align: center;
+        }
+        
+        header h1::first-letter {
+            font-family: cursive;
+            font-size: 150%;
+        }
+        
+        #container {
+            background-color: red;
+        }
+        
+        #clue {
+            margin-top: 7%;
+            font-family: cursive;
+            width: 30%;
+        }
+        
+        #clickMe {
+            width: 20%;
+        }
+        
+        #clue > input[disabled] {
+            font-family: cursive;
+            font-size: 100%;
+        }
+    </style>
+</head>
+<!--Madayag, Nick-->
+
+<body>
+
+    <div id="container">
+
+
+        <header>
+            <h1 class="tile">Xword Puzzle</h1>
+        </header>
+
+        <nav>
+            <div id="choices">
+                <input type="radio" value="tiny" name="choice" checked>Tiny
+                <input type="radio" value="small" name="choice">Small
+                <input type="radio" value="medium" name="choice">Medium
+                <input type="radio" value="large" name="choice">Large
+            </div>
+        </nav>
+
+
+        <div id='ins'>Click on a tile to show clue/s</div>
+
+        <button id="clickMe" onclick="startEnd();">Start</button>
+
+        <table id="puzzleBody">
+        </table>
+
+        <div id="clue" style="visibility:hidden, font-family:'sans-serif'">
+            <h1>Across Clue</h1>
+            <input id='aClue' type='text' value=' ' disabled />
+            <h1>Down Clue </h1>
+            <input id="dClue" type='text' value=' ' disabled />
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+﻿{
+    "across": [
+        {
+            "num": 1,
+            "answer": "TALES"
+        },
+        {
+            "num": 6,
+            "answer": "PEG"
+        },
+        {
+            "num": 9,
+            "answer": "APSE"
+        },
+        {
+            "num": 13,
+            "answer": "ALONE"
+        },
+        {
+            "num": 14,
+            "answer": "ERAT"
+        },
+        {
+            "num": 16,
+            "answer": "BREL"
+        },
+        {
+            "num": 17,
+            "answer": "BARCAROLLE"
+        },
+        {
+            "num": 19,
+            "answer": "JONI"
+        },
+        {
+            "num": 20,
+            "answer": "UNEASINESS"
+        },
+        {
+            "num": 21,
+            "answer": "UPTO"
+        },
+        {
+            "num": 22,
+            "answer": "GODS"
+        },
+        {
+            "num": 23,
+            "answer": "LARIAT"
+        },
+        {
+            "num": 25,
+            "answer": "ADDEND"
+        },
+        {
+            "num": 28,
+            "answer": "CHALET"
+        },
+        {
+            "num": 30,
+            "answer": "CUED"
+        },
+        {
+            "num": 31,
+            "answer": "LYLE"
+        },
+        {
+            "num": 33,
+            "answer": "ODIUM"
+        },
+        {
+            "num": 36,
+            "answer": "TEL"
+        },
+        {
+            "num": 37,
+            "answer": "SEEABLE"
+        },
+        {
+            "num": 39,
+            "answer": "ORO"
+        },
+        {
+            "num": 40,
+            "answer": "SLICK"
+        },
+        {
+            "num": 42,
+            "answer": "GREY"
+        },
+        {
+            "num": 43,
+            "answer": "SUDS"
+        },
+        {
+            "num": 44,
+            "answer": "CRINGE"
+        },
+        {
+            "num": 46,
+            "answer": "RHESUS"
+        },
+        {
+            "num": 48,
+            "answer": "CLAUDE"
+        },
+        {
+            "num": 50,
+            "answer": "DIOR"
+        },
+        {
+            "num": 51,
+            "answer": "LACE"
+        },
+        {
+            "num": 52,
+            "answer": "ADDISABABA"
+        },
+        {
+            "num": 58,
+            "answer": "ARIL"
+        },
+        {
+            "num": 59,
+            "answer": "THEATRICAL"
+        },
+        {
+            "num": 60,
+            "answer": "IGET"
+        },
+        {
+            "num": 61,
+            "answer": "HOAR"
+        },
+        {
+            "num": 62,
+            "answer": "SAHEL"
+        },
+        {
+            "num": 63,
+            "answer": "ROSY"
+        },
+        {
+            "num": 64,
+            "answer": "WRY"
+        },
+        {
+            "num": 65,
+            "answer": "ENTRY"
+        }
+    ],
+    "down": [
+        {
+            "num": 1,
+            "answer": "TABU"
+        },
+        {
+            "num": 2,
+            "answer": "ALAN"
+        },
+        {
+            "num": 3,
+            "answer": "LORE"
+        },
+        {
+            "num": 4,
+            "answer": "ENCAGED"
+        },
+        {
+            "num": 5,
+            "answer": "SEASON"
+        },
+        {
+            "num": 6,
+            "answer": "PEONS"
+        },
+        {
+            "num": 7,
+            "answer": "ERLE"
+        },
+        {
+            "num": 8,
+            "answer": "GALS"
+        },
+        {
+            "num": 9,
+            "answer": "ABJURED"
+        },
+        {
+            "num": 10,
+            "answer": "PROPITIOUS"
+        },
+        {
+            "num": 11,
+            "answer": "SENTA"
+        },
+        {
+            "num": 12,
+            "answer": "ELIOT"
+        },
+        {
+            "num": 15,
+            "answer": "TESLA"
+        },
+        {
+            "num": 18,
+            "answer": "RIDDLE"
+        },
+        {
+            "num": 24,
+            "answer": "ALOE"
+        },
+        {
+            "num": 25,
+            "answer": "ACTS"
+        },
+        {
+            "num": 26,
+            "answer": "DUEL"
+        },
+        {
+            "num": 27,
+            "answer": "DELICACIES"
+        },
+        {
+            "num": 28,
+            "answer": "CLARE"
+        },
+        {
+            "num": 29,
+            "answer": "HEBE"
+        },
+        {
+            "num": 32,
+            "answer": "YEGG"
+        },
+        {
+            "num": 34,
+            "answer": "URDU"
+        },
+        {
+            "num": 35,
+            "answer": "MOSS"
+        },
+        {
+            "num": 37,
+            "answer": "SKID"
+        },
+        {
+            "num": 38,
+            "answer": "LYRIST"
+        },
+        {
+            "num": 41,
+            "answer": "CRUELTY"
+        },
+        {
+            "num": 43,
+            "answer": "SERBIAN"
+        },
+        {
+            "num": 45,
+            "answer": "NEATH"
+        },
+        {
+            "num": 47,
+            "answer": "HOARSE"
+        },
+        {
+            "num": 48,
+            "answer": "CLAIR"
+        },
+        {
+            "num": 49,
+            "answer": "LARGO"
+        },
+        {
+            "num": 50,
+            "answer": "DIARY"
+        },
+        {
+            "num": 53,
+            "answer": "DHOW"
+        },
+        {
+            "num": 54,
+            "answer": "DEAR"
+        },
+        {
+            "num": 55,
+            "answer": "ACHT"
+        },
+        {
+            "num": 56,
+            "answer": "BAER"
+        },
+        {
+            "num": 57,
+            "answer": "ALLY"
+        }
+    ]
+}
