@@ -1,0 +1,374 @@
+<!--
+    NOTE:  
+    * Edit this file to implement the expected functionality of the indicated application.
+    
+    * All code (i.e., HTML, CSS, JavaScript) must be contained in this file, and must be 
+      the group's ORIGINAL WORK.  PLAGIARIZED work, both the ORIGINAL and the COPY, will
+      get NO CREDIT.
+
+    * Use embedded code comments to label each code section with the name of the member of 
+      the group who is responsible for that code section.  All essential code sections must 
+      be labeled properly.
+
+    * Use appropriate code documentation to provide brief descriptions/explanations of each
+      essential code section.
+
+    * Use only 'vanilla' HTML, CSS, and JavaScript in your code (i.e., 3rd-party libraries
+      or frameworks must not be used).
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Online Convenience Store</title>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+    <script>
+        /* use this function to fetch the specified file (assumed to be a text-format
+                     data file located in the 'res' folder) using AJAX, returning the file's
+                     contents when successful, or 'undefined' otherwise.. */
+        function getDataFile(filename) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "res/" + filename, false);
+            xhr.send();
+            if (xhr.status == 200) {
+                return xhr.responseText;
+            }
+        }
+
+
+        /*	
+            Bernardo, Landley 
+			Reads all the values of the category key and gets it values once by comparing it 
+			everytime a loop is made until it reaches the array length.
+		*/
+        function getCategories(items) {
+            var isCopy = false;
+            var array = [];
+            for (x = 0; x < items.length; x++) {
+                for (y = 0; y < array.length; y++) {
+                    if ((items[x].category.localeCompare(array[y]) == 0)) {
+                        isCopy = true;
+                    }
+                }
+                if (isCopy != true) {
+                    array.push(items[x].category);
+                } else {
+                    isCopy = false;
+                }
+            }
+            return array;
+        }
+
+        /* Jorge Marquez
+        	Displays all product categories based on the getCategories function.
+        */
+        function displayCategories() {
+            var menu = "";
+            for (i = 0; i < categories.length; i++) {
+                menu += "<button onclick='displayChoice(" + i + ")'>" + categories[i] + "</button>";
+            }
+            document.getElementById("cat2").innerHTML = menu;
+        }
+
+        /* Jorge Marquez
+        	Used to update the price field whenever a customer interacts with a product.
+        */
+        function updateTotalPrice(number) {
+            var sum = parseFloat(document.getElementById('total').value) + parseFloat(number);
+            document.getElementById('total').value = sum;
+        }
+
+        /*  Nick Van Madayag
+        	Displays the choices under the chosen category and creates a div that will contain each product.
+        */
+        function displayChoice(num) {
+            document.getElementById('prod2').innerHTML = " ";
+            var prods = "";
+            for (x = 0; x < content.length; x++) {
+                if (content[x].category.localeCompare(categories[num]) == 0) {
+                    prods += "<div class='choices' onclick='addToCart(" + x + ")'><abbr title='" +
+                        content[x].description + "'><img src=" + content[x].imageURL +
+                        "/></abbr><p> Php " + content[x].price + "</p></div>";
+                }
+            }
+            document.getElementById('prod2').innerHTML = prods;
+        }
+
+        /* Derick Dolipas
+        	Adds the name of the chosen product and updates the total price
+        */
+        function addToCart(productNum) {
+            updateTotalPrice(content[productNum].price);
+            cart.push(content[productNum]);
+            displayCart(cart);
+        }
+
+        /*  Nick Van Madayag
+        	Displays the description of all the products that has been chosen by the user.
+        */
+        function displayCart(arrCart) {
+            var cartContent = "";
+            for (x = 0; x < arrCart.length; x++) {
+                cartContent += "<button onclick='removeFromCart(" + x + ");'>" + arrCart[x].description + "</button>";
+            }
+            document.getElementById('price2').innerHTML = cartContent;
+        }
+
+        /*  Derick Dolipas
+        	Allows users to remove any unwanted product.
+        */
+        function removeFromCart(prodIndex) {
+            updateTotalPrice("-" + cart[prodIndex].price);
+            cart.splice(prodIndex, 1);
+            displayCart(cart);
+        }
+
+        /*  Nick Van Madayag
+        	Gives functionality to the start transaction button that if clicked, the value of the button will change
+        	and displays the avalable categories taken from the getCategories. Alerts the user of the total amount of
+        	his purchases after ending the transaction.
+        */
+        function startEndTransaction() {
+            if (document.getElementById('transact').innerHTML.localeCompare("Start Transaction") == 0) {
+                document.getElementById('transact').innerHTML = "End Transaction";
+                document.getElementById('prod2').innerHTML = "";
+                displayCategories();
+            } else {
+                document.getElementById('transact').innerHTML = "Start Transaction";
+                document.getElementById("cat2").innerHTML = "";
+                document.getElementById('prod2').innerHTML = "<H1>THANK YOU FOR YOUR PATRONAGE</H1>";
+                alert("The Total of the products you have in your cart is : Php " + document.getElementById('total').value +
+                    " please prepare your payment while your merchendise is being delivered.");
+                document.getElementById('total').value = 0.00;
+                while (cart.length > 0) {
+                    cart.pop();
+                }
+                document.getElementById("price2").innerHTML = "";
+            }
+        }
+
+        var cart = [];
+        var content = JSON.parse(getDataFile("data.json"));
+        var categories = getCategories(content);
+    </script>
+
+    <style>
+        /*
+		Derrick Dolipas
+		*/
+        
+        #container {
+            margin: auto;
+            width: 873px;
+            height: 800px;
+            ;
+            background-color: #66ff66;
+        }
+        
+        #whole {
+            margin: auto;
+            height: 800px;
+        }
+        /*
+			Adds a border to each product picture and gives each picture a white background to match the pictures background. 
+		*/
+        
+        div.choices {
+            margin-left: 1px;
+            font-family: "Arial";
+            text-align: center;
+            float: left;
+            width: 180px;
+            border: 1px solid #009900;
+            background-color: white;
+        }
+        
+        div#whole {
+            width: 100%;
+            font-family: "Arial";
+        }
+        /*
+			Gives the header a green background, sets the headers height, width and margin.
+		*/
+        
+        div#header {
+            background-color: #4CAF50;
+            height: 70px;
+            width: 873px;
+            margin: auto;
+        }
+        
+        #header>button#transact {
+            position: absolute;
+            right: 20px;
+            top: 28px;
+        }
+        
+        #header>h1 {
+            font-size: 30px;
+            padding-top: 15px;
+            padding-left: 10px;
+            text-align: center;
+            color: white;
+        }
+        
+        div#cat {
+            text-align: center;
+            position: relative;
+            margin: auto;
+            width: 175px;
+            float: left;
+        }
+        
+        div#prod {
+            text-align: center;
+            position: relative;
+            width: 550px;
+            font-family: "Arial";
+            color: black;
+            float: left;
+        }
+        
+        div#price {
+            text-align: center;
+            position: relative;
+            float: right;
+            width: 148px;
+        }
+        /*
+			Sets position and adds styles to the words Category, Product, Shopping Cart.
+		*/
+        
+        #prod1,
+        #cat1,
+        #price1 {
+            padding-top: 10px;
+            padding-bottom: -5px;
+            height: 50px;
+            font-size: 20px;
+            background-size: fill;
+            width: 100%;
+            background-color: #248f24;
+            color: white;
+        }
+        /*
+			Adds a scroll bar to the selected products
+		*/
+        
+        #price2 {
+            overflow-y: auto;
+            overflow-x: hidden;
+            height: 350px;
+            float: left;
+        }
+        /*
+			Edits the buttons for the selected products.
+		*/
+        
+        #price2 > button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            height: 40px;
+            width: 98%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin-right: 100px;
+        }
+        /*
+			Changes the color of the buttons once the mouse hovers it.
+		*/
+        
+        #cat2 > button:hover,
+        #price2 > button:hover {
+            background-color: #4CAF10;
+        }
+        /*
+			Edits the buttons for each product category.
+		*/
+        
+        #cat2 > button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            height: 80px;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        
+        .footer {
+            position: fixed;
+            width: 841px;
+            height: 36px;
+            top: 600px;
+            ;
+            bottom: 0;
+            margin: auto;
+            padding: 1rem;
+            background-color: #4CAF50;
+            text-align: center;
+        }
+        /*
+			Changes the width and adds margin to the total screen which shows the total price of the selected products.
+		*/
+        
+        #total {
+            width: 110px;
+            margin-top: 5px;
+        }
+    </style>
+
+</head>
+
+<!--Madayag, Nick-->
+<body>
+	
+    <div id="whole">
+        <div id="header">
+            <h1>My Online Convenience Store</h1>
+        </div>
+
+        <div id="container">
+            <div id="cat">
+                <div id='cat1'>
+                    Categories
+                </div>
+                <div id='cat2'>
+                </div>
+            </div>
+
+            <div id="prod">
+                <div id="prod1">
+                    Products
+                </div>
+                <div id="prod2">
+                </div>
+            </div>
+
+            <div id="price">
+                <div id="price1">
+                    Shopping Cart
+                </div>
+                <div id="sum">
+                    <input id="total" type="text" value=0 .00 DISABLED>
+                    <br> Total price
+                </div>
+                <button id='transact' onclick="startEndTransaction();">Start Transaction</button>
+                <!-- Adds the Start/End Transaction button.-->
+                <div id="price2">
+                </div>
+            </div>
+            <div class="footer">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
